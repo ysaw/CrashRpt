@@ -1,0 +1,8 @@
+﻿  framing.c
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\libogg\src\framing.c(715): warning C4456: declaration of 'page' hides previous local declaration
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\libogg\src\framing.c(660): note: see declaration of 'page'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\libogg\src\framing.c(716): warning C4456: declaration of 'bytes' hides previous local declaration
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\libogg\src\framing.c(662): note: see declaration of 'bytes'
+  bitwise.c
+  Generating Code...
+  libogg_vs2010.vcxproj -> C:\Users\formlabs\CrashRpt_v.1.4.3_r1645\thirdparty\lib\liboggd.lib

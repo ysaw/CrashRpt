@@ -1,0 +1,93 @@
+﻿  stdafx.cpp
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlapp.h(503): warning C4996: 'GetVersionExW': was declared deprecated
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\um\sysinfoapi.h(459): note: see declaration of 'GetVersionExW'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlapp.h(612): warning C4996: 'GetVersionExW': was declared deprecated
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\um\sysinfoapi.h(459): note: see declaration of 'GetVersionExW'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlapp.h(647): warning C4996: 'GetVersionExW': was declared deprecated
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\um\sysinfoapi.h(459): note: see declaration of 'GetVersionExW'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atluser.h(1318): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atluser.h(1328): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlgdi.h(469): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlgdi.h(476): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlgdi.h(483): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlgdi.h(490): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlgdi.h(3682): warning C4838: conversion from 'LONG' to 'DWORD' requires a narrowing conversion
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atldlgs.h(3208): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atldlgs.h(3230): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atldlgs.h(3291): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atldlgs.h(3306): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlmisc.h(1523): warning C4457: declaration of 'pstr' hides function parameter
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlmisc.h(1506): note: see declaration of 'pstr'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\dbghelp\include\dbghelp.h(1540): warning C4091: 'typedef ': ignored on left of '' when no variable is declared
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\dbghelp\include\dbghelp.h(3056): warning C4091: 'typedef ': ignored on left of '' when no variable is declared
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(3269): warning C4838: conversion from 'int' to 'UINT_PTR' requires a narrowing conversion
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(3266): note: while compiling class template member function 'void WTL::CSortListViewImpl<T>::NotifyParentSortChanged(int,int)'
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(3663): note: see reference to function template instantiation 'void WTL::CSortListViewImpl<T>::NotifyParentSortChanged(int,int)' being compiled
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(3700): note: see reference to class template instantiation 'WTL::CSortListViewImpl<T>' being compiled
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ]
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(3719): note: see reference to class template instantiation 'WTL::CSortListViewCtrlImpl<WTL::CSortListViewCtrl,WTL::CListViewCtrl,WTL::CSortListViewCtrlTraits>' being compiled
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(1081): warning C4838: conversion from 'int' to 'UINT_PTR' requires a narrowing conversion
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(1076): note: while compiling class template member function 'bool WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>::Navigate(void)'
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(1323): note: see reference to function template instantiation 'bool WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>::Navigate(void)' being compiled
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(1820): note: see reference to class template instantiation 'WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>' being compiled
+  SharedMem.cpp
+  Utility.cpp
+  AssyncNotification.cpp
+  CrashInfoReader.cpp
+  CrashSender.cpp
+  DetailDlg.cpp
+  ErrorReportDlg.cpp
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\crashinforeader.cpp(1295): warning C4456: declaration of 'strconv' hides previous local declaration
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\crashinforeader.cpp(1249): note: see declaration of 'strconv'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\errorreportdlg.cpp(63): warning C4302: 'type cast': truncation from 'LPWSTR' to 'WORD'
+  ErrorReportSender.cpp
+  FilePreviewCtrl.cpp
+  HttpRequestSender.cpp
+  MailMsg.cpp
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\httprequestsender.cpp(286): warning C4456: declaration of 'dwBuffSize' hides previous local declaration
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\httprequestsender.cpp(76): note: see declaration of 'dwBuffSize'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\httprequestsender.cpp(289): warning C4456: declaration of 'bQueryInfo' hides previous local declaration
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\httprequestsender.cpp(237): note: see declaration of 'bQueryInfo'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\httprequestsender.cpp(303): warning C4456: declaration of 'sMsg' hides previous local declaration
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\httprequestsender.cpp(77): note: see declaration of 'sMsg'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\httprequestsender.cpp(406): warning C4456: declaration of 'dwBytesWritten' hides previous local declaration
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\httprequestsender.cpp(372): note: see declaration of 'dwBytesWritten'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\httprequestsender.cpp(512): warning C4456: declaration of 'dwBytesWritten' hides previous local declaration
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\httprequestsender.cpp(467): note: see declaration of 'dwBytesWritten'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\errorreportsender.cpp(94): warning C4456: declaration of 'nInit' hides previous local declaration
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\errorreportsender.cpp(65): note: see declaration of 'nInit'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\errorreportsender.cpp(1207): warning C4456: declaration of 'file_list' hides previous local declaration
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\errorreportsender.cpp(1123): note: see declaration of 'file_list'
+  ProgressDlg.cpp
+  ResendDlg.cpp
+  ScreenCap.cpp
+  smtpclient.cpp
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\resenddlg.cpp(447): warning C4456: declaration of 'i' hides previous local declaration
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\resenddlg.cpp(427): note: see declaration of 'i'
+  VideoRec.cpp
+  VideoRecDlg.cpp
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\videorec.cpp(341): warning C4456: declaration of 'ret' hides previous local declaration
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\videorec.cpp(199): note: see declaration of 'ret'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\videorec.cpp(370): warning C4456: declaration of 'ret' hides previous local declaration
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\videorec.cpp(199): note: see declaration of 'ret'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\videorec.cpp(398): warning C4456: declaration of 'ret' hides previous local declaration
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\videorec.cpp(199): note: see declaration of 'ret'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\videorec.cpp(578): warning C4456: declaration of 'y' hides previous local declaration
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\reporting\crashsender\videorec.cpp(567): note: see declaration of 'y'
+  base64.cpp
+  md5.cpp
+SharedMem.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  CrashSender_vs2010.vcxproj -> C:\Users\formlabs\CrashRpt_v.1.4.3_r1645\bin\CrashSender1403d.exe
+  CrashSender_vs2010.vcxproj -> C:\Users\formlabs\CrashRpt_v.1.4.3_r1645\bin\\CrashSenderd.pdb (Full PDB)
+          1 file(s) copied.

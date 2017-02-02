@@ -1,0 +1,76 @@
+﻿  stdafx.cpp
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlapp.h(503): warning C4996: 'GetVersionExA': was declared deprecated
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\um\sysinfoapi.h(450): note: see declaration of 'GetVersionExA'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlapp.h(612): warning C4996: 'GetVersionExA': was declared deprecated
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\um\sysinfoapi.h(450): note: see declaration of 'GetVersionExA'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlapp.h(647): warning C4996: 'GetVersionExA': was declared deprecated
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\um\sysinfoapi.h(450): note: see declaration of 'GetVersionExA'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atluser.h(1318): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atluser.h(1328): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlgdi.h(469): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlgdi.h(476): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlgdi.h(483): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlgdi.h(490): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlgdi.h(3682): warning C4838: conversion from 'LONG' to 'DWORD' requires a narrowing conversion
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atldlgs.h(3208): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atldlgs.h(3230): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atldlgs.h(3291): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atldlgs.h(3306): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlmisc.h(1523): warning C4457: declaration of 'pstr' hides function parameter
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlmisc.h(1506): note: see declaration of 'pstr'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atldlgs.h(485): warning C4996: 'GetVersionExA': was declared deprecated
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\um\sysinfoapi.h(450): note: see declaration of 'GetVersionExA'
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atldlgs.h(472): note: while compiling class template member function 'WTL::CMultiFileDialogImpl<WTL::CMultiFileDialog>::CMultiFileDialogImpl(LPCTSTR,LPCTSTR,DWORD,LPCTSTR,HWND)'
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atldlgs.h(862): note: see reference to function template instantiation 'WTL::CMultiFileDialogImpl<WTL::CMultiFileDialog>::CMultiFileDialogImpl(LPCTSTR,LPCTSTR,DWORD,LPCTSTR,HWND)' being compiled
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atldlgs.h(854): note: see reference to class template instantiation 'WTL::CMultiFileDialogImpl<WTL::CMultiFileDialog>' being compiled
+  CrashThread.cpp
+  MainDlg.cpp
+  WTLDemo.cpp
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(3269): warning C4838: conversion from 'int' to 'UINT_PTR' requires a narrowing conversion (compiling source file WTLDemo.cpp)
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(3266): note: while compiling class template member function 'void WTL::CSortListViewImpl<T>::NotifyParentSortChanged(int,int)'
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ] (compiling source file WTLDemo.cpp)
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(3663): note: see reference to function template instantiation 'void WTL::CSortListViewImpl<T>::NotifyParentSortChanged(int,int)' being compiled
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ] (compiling source file WTLDemo.cpp)
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(3700): note: see reference to class template instantiation 'WTL::CSortListViewImpl<T>' being compiled
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ] (compiling source file WTLDemo.cpp)
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(3719): note: see reference to class template instantiation 'WTL::CSortListViewCtrlImpl<WTL::CSortListViewCtrl,WTL::CListViewCtrl,WTL::CSortListViewCtrlTraits>' being compiled (compiling source file WTLDemo.cpp)
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(3269): warning C4838: conversion from 'int' to 'UINT_PTR' requires a narrowing conversion (compiling source file MainDlg.cpp)
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(3266): note: while compiling class template member function 'void WTL::CSortListViewImpl<T>::NotifyParentSortChanged(int,int)'
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ] (compiling source file MainDlg.cpp)
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(3663): note: see reference to function template instantiation 'void WTL::CSortListViewImpl<T>::NotifyParentSortChanged(int,int)' being compiled
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ] (compiling source file MainDlg.cpp)
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(3700): note: see reference to class template instantiation 'WTL::CSortListViewImpl<T>' being compiled
+          with
+          [
+              T=WTL::CSortListViewCtrl
+          ] (compiling source file MainDlg.cpp)
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(3719): note: see reference to class template instantiation 'WTL::CSortListViewCtrlImpl<WTL::CSortListViewCtrl,WTL::CListViewCtrl,WTL::CSortListViewCtrlTraits>' being compiled (compiling source file MainDlg.cpp)
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(1081): warning C4838: conversion from 'int' to 'UINT_PTR' requires a narrowing conversion (compiling source file WTLDemo.cpp)
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(1076): note: while compiling class template member function 'bool WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>::Navigate(void)' (compiling source file WTLDemo.cpp)
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(1323): note: see reference to function template instantiation 'bool WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>::Navigate(void)' being compiled (compiling source file WTLDemo.cpp)
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(1820): note: see reference to class template instantiation 'WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>' being compiled (compiling source file WTLDemo.cpp)
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(1081): warning C4838: conversion from 'int' to 'UINT_PTR' requires a narrowing conversion (compiling source file MainDlg.cpp)
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(1076): note: while compiling class template member function 'bool WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>::Navigate(void)' (compiling source file MainDlg.cpp)
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(1323): note: see reference to function template instantiation 'bool WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>::Navigate(void)' being compiled (compiling source file MainDlg.cpp)
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlctrlx.h(1820): note: see reference to class template instantiation 'WTL::CHyperLinkImpl<WTL::CHyperLink,ATL::CWindow,ATL::CControlWinTraits>' being compiled (compiling source file MainDlg.cpp)
+CrashThread.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  WTLDemo_vs2010.vcxproj -> C:\Users\formlabs\CrashRpt_v.1.4.3_r1645\bin\WTLDemod.exe
+  WTLDemo_vs2010.vcxproj -> C:\Users\formlabs\CrashRpt_v.1.4.3_r1645\bin\\CrashRptTestd.pdb (Full PDB)
+  The system cannot find the path specified.
+          1 file(s) copied.
+          1 file(s) copied.

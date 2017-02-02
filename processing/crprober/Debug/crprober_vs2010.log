@@ -1,0 +1,8 @@
+﻿  main.cpp
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\processing\crprober\main.cpp(351): warning C4456: declaration of 'pos' hides previous local declaration
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\processing\crprober\main.cpp(313): note: see declaration of 'pos'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\processing\crprober\main.cpp(820): warning C4456: declaration of 'str' hides previous local declaration
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\processing\crprober\main.cpp(779): note: see declaration of 'str'
+main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  crprober_vs2010.vcxproj -> C:\Users\formlabs\CrashRpt_v.1.4.3_r1645\bin\crproberd.exe
+  crprober_vs2010.vcxproj -> C:\Users\formlabs\CrashRpt_v.1.4.3_r1645\bin\crproberd.pdb (Full PDB)

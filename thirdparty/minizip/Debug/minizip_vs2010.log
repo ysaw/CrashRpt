@@ -1,0 +1,6 @@
+﻿  ioapi.c
+  iowin32.c
+  mztools.c
+  unzip.c
+  zip.c
+  minizip_vs2010.vcxproj -> C:\Users\formlabs\CrashRpt_v.1.4.3_r1645\thirdparty\lib\minizipd.lib

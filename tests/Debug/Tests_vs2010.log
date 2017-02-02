@@ -1,0 +1,30 @@
+﻿  stdafx.cpp
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlapp.h(503): warning C4996: 'GetVersionExW': was declared deprecated
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\um\sysinfoapi.h(459): note: see declaration of 'GetVersionExW'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlapp.h(612): warning C4996: 'GetVersionExW': was declared deprecated
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\um\sysinfoapi.h(459): note: see declaration of 'GetVersionExW'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlapp.h(647): warning C4996: 'GetVersionExW': was declared deprecated
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\um\sysinfoapi.h(459): note: see declaration of 'GetVersionExW'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atluser.h(1318): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atluser.h(1328): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlgdi.h(469): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlgdi.h(476): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlgdi.h(483): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlgdi.h(490): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlgdi.h(3682): warning C4838: conversion from 'LONG' to 'DWORD' requires a narrowing conversion
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atldlgs.h(3208): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atldlgs.h(3230): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atldlgs.h(3291): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atldlgs.h(3306): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+  Utility.cpp
+  CrashRptAPITests.cpp
+  CrashRptProbeAPITests.cpp
+  CrproberTests.cpp
+  DeliveryTests.cpp
+  ExceptionHandlerTests.cpp
+  LangFileTests.cpp
+  Tests.cpp
+  TestUtils.cpp
+Utility.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  Tests_vs2010.vcxproj -> C:\Users\formlabs\CrashRpt_v.1.4.3_r1645\\bin\Testsd.exe
+  Tests_vs2010.vcxproj -> C:\Users\formlabs\CrashRpt_v.1.4.3_r1645\\bin\Testsd.pdb (Full PDB)

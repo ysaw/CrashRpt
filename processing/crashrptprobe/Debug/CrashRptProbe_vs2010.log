@@ -1,0 +1,39 @@
+﻿  stdafx.cpp
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlapp.h(503): warning C4996: 'GetVersionExW': was declared deprecated
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\um\sysinfoapi.h(459): note: see declaration of 'GetVersionExW'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlapp.h(612): warning C4996: 'GetVersionExW': was declared deprecated
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\um\sysinfoapi.h(459): note: see declaration of 'GetVersionExW'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlapp.h(647): warning C4996: 'GetVersionExW': was declared deprecated
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\um\sysinfoapi.h(459): note: see declaration of 'GetVersionExW'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atluser.h(1318): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atluser.h(1328): warning C4302: 'type cast': truncation from 'LPCTSTR' to 'WORD'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlgdi.h(469): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlgdi.h(476): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlgdi.h(483): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlgdi.h(490): warning C4838: conversion from 'int' to 'UINT' requires a narrowing conversion
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlgdi.h(3682): warning C4838: conversion from 'LONG' to 'DWORD' requires a narrowing conversion
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlmisc.h(1523): warning C4457: declaration of 'pstr' hides function parameter
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\wtl\atlmisc.h(1506): note: see declaration of 'pstr'
+  Utility.cpp
+  CrashDescReader.cpp
+  CrashRptProbe.cpp
+  MinidumpReader.cpp
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\dbghelp\include\dbghelp.h(1540): warning C4091: 'typedef ': ignored on left of '' when no variable is declared (compiling source file CrashRptProbe.cpp)
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\dbghelp\include\dbghelp.h(1540): warning C4091: 'typedef ': ignored on left of '' when no variable is declared (compiling source file CrashDescReader.cpp)
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\dbghelp\include\dbghelp.h(3056): warning C4091: 'typedef ': ignored on left of '' when no variable is declared (compiling source file CrashRptProbe.cpp)
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\dbghelp\include\dbghelp.h(3056): warning C4091: 'typedef ': ignored on left of '' when no variable is declared (compiling source file CrashDescReader.cpp)
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\dbghelp\include\dbghelp.h(1540): warning C4091: 'typedef ': ignored on left of '' when no variable is declared (compiling source file MinidumpReader.cpp)
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\dbghelp\include\dbghelp.h(3056): warning C4091: 'typedef ': ignored on left of '' when no variable is declared (compiling source file MinidumpReader.cpp)
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\dbghelp\include\dbghelp.h(1540): warning C4091: 'typedef ': ignored on left of '' when no variable is declared (compiling source file ..\..\reporting\crashrpt\Utility.cpp)
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\thirdparty\dbghelp\include\dbghelp.h(3056): warning C4091: 'typedef ': ignored on left of '' when no variable is declared (compiling source file ..\..\reporting\crashrpt\Utility.cpp)
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\processing\crashrptprobe\crashdescreader.cpp(368): warning C4457: declaration of 'sFileName' hides function parameter
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\processing\crashrptprobe\crashdescreader.cpp(36): note: see declaration of 'sFileName'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\processing\crashrptprobe\crashrptprobe.cpp(814): warning C4456: declaration of 'it' hides previous local declaration
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\processing\crashrptprobe\crashrptprobe.cpp(526): note: see declaration of 'it'
+c:\users\formlabs\crashrpt_v.1.4.3_r1645\processing\crashrptprobe\crashrptprobe.cpp(851): warning C4456: declaration of 'it' hides previous local declaration
+  c:\users\formlabs\crashrpt_v.1.4.3_r1645\processing\crashrptprobe\crashrptprobe.cpp(526): note: see declaration of 'it'
+  md5.cpp
+Utility.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     Creating library C:\Users\formlabs\CrashRpt_v.1.4.3_r1645\lib\CrashRptProbe1403d.lib and object C:\Users\formlabs\CrashRpt_v.1.4.3_r1645\lib\CrashRptProbe1403d.exp
+  CrashRptProbe_vs2010.vcxproj -> C:\Users\formlabs\CrashRpt_v.1.4.3_r1645\bin\CrashRptProbe1403d.dll
+  CrashRptProbe_vs2010.vcxproj -> C:\Users\formlabs\CrashRpt_v.1.4.3_r1645\bin\CrashRptProbe1403d.pdb (Full PDB)

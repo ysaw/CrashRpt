@@ -1,0 +1,5 @@
+﻿  ConsoleDemo.cpp
+ConsoleDemo.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  ConsoleDemo_vs2010.vcxproj -> C:\Users\formlabs\CrashRpt_v.1.4.3_r1645\bin\ConsoleDemod.exe
+  ConsoleDemo_vs2010.vcxproj -> C:\Users\formlabs\CrashRpt_v.1.4.3_r1645\bin\\crashcond.pdb (Full PDB)
+          1 file(s) copied.
