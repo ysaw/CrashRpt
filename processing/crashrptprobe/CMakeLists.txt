@@ -42,7 +42,7 @@ else(CMAKE_CL_64)
         target_link_libraries(CrashRptProbe ${CRASHRPT_SOURCE_DIR}/thirdparty/dbghelp/lib/dbghelp.lib)
 endif(CMAKE_CL_64)
 
-target_link_libraries(CrashRptProbe zlib minizip tinyxml Rpcrt4.lib shell32.lib gdi32.lib version.lib psapi.lib)
+target_link_libraries(CrashRptProbe zlib_library minizip tinyxml Rpcrt4.lib shell32.lib gdi32.lib version.lib psapi.lib)
 
 if(CRASHRPT_BUILD_SHARED_LIBS)
 

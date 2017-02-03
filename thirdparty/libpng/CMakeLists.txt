@@ -15,6 +15,6 @@ fix_default_compiler_settings_()
 add_library(libpng STATIC ${source_files})
 
 # Add linker input libraries
-target_link_libraries(libpng zlib)
+target_link_libraries(libpng zlib_library)
 
 set_target_properties(libpng PROPERTIES DEBUG_POSTFIX d )

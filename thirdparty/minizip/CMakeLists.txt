@@ -15,6 +15,6 @@ fix_default_compiler_settings_()
 add_library(minizip STATIC ${source_files})
 
 # Add linker input libraries
-target_link_libraries(minizip zlib)
+target_link_libraries(minizip zlib_library)
 
 set_target_properties(minizip PROPERTIES DEBUG_POSTFIX d )
