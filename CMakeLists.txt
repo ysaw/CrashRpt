@@ -8,11 +8,10 @@ project (CrashRpt)
 # CrashRpt version number
 set (CRASHRPT_VER 1403)
 
-
 # Check supported generators
-#if(NOT MSVC OR ${MSVC_VERSION} LESS 1400)
-#	message(FATAL_ERROR "This version of Visual Studio is not supported: ${CMAKE_GENERATOR}.")
-#endif(NOT MSVC OR ${MSVC_VERSION} LESS 1400)
+if(NOT MSVC OR ${MSVC_VERSION} LESS 1400)
+        message(FATAL_ERROR "This version of Visual Studio is not supported: ${CMAKE_GENERATOR}.")
+endif(NOT MSVC OR ${MSVC_VERSION} LESS 1400)
 
 # Build options
 option(CRASHRPT_BUILD_SHARED_LIBS "If set (default), CrashRpt modules are built as dynamic-link libraries, otherwise as static libs." ON)
@@ -20,29 +19,29 @@ option(CRASHRPT_LINK_CRT_AS_DLL "If set (default), CrashRpt modules link C run-t
 
 # Set output directory for executable files
 if(CMAKE_CL_64)
-	set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_BINARY_DIR}/bin/x64)
-	set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_BINARY_DIR}/bin/x64)
+        set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_CURRENT_BINARY_DIR}/bin/x64)
+        set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_CURRENT_BINARY_DIR}/bin/x64)
 else(CMAKE_CL_64)
-	set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_BINARY_DIR}/bin)
-	set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_BINARY_DIR}/bin)
+        set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_CURRENT_BINARY_DIR}/bin)
+        set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_CURRENT_BINARY_DIR}/bin)
 endif(CMAKE_CL_64)
 
 # Set output directory for DLL files
 if(CMAKE_CL_64)
-	set(CMAKE_LIBRARY_OUTPUT_DIRECTORY_DEBUG ${CMAKE_BINARY_DIR}/bin/x64)
-	set(CMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE ${CMAKE_BINARY_DIR}/bin/x64)
+        set(CMAKE_LIBRARY_OUTPUT_DIRECTORY_DEBUG ${CMAKE_CURRENT_BINARY_DIR}/bin/x64)
+        set(CMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE ${CMAKE_CURRENT_BINARY_DIR}/bin/x64)
 else(CMAKE_CL_64)
-	set(CMAKE_LIBRARY_OUTPUT_DIRECTORY_DEBUG ${CMAKE_BINARY_DIR}/bin)
-	set(CMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE ${CMAKE_BINARY_DIR}/bin)
+        set(CMAKE_LIBRARY_OUTPUT_DIRECTORY_DEBUG ${CMAKE_CURRENT_BINARY_DIR}/bin)
+        set(CMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE ${CMAKE_CURRENT_BINARY_DIR}/bin)
 endif(CMAKE_CL_64)
 
 # Set output directory for LIB files
 if(CMAKE_CL_64)
-	set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY_DEBUG ${CMAKE_BINARY_DIR}/lib/x64)
-	set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY_RELEASE ${CMAKE_BINARY_DIR}/lib/x64)
+        set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY_DEBUG ${CMAKE_CURRENT_BINARY_DIR}/lib/x64)
+        set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY_RELEASE ${CMAKE_CURRENT_BINARY_DIR}/lib/x64)
 else(CMAKE_CL_64)
-	set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY_DEBUG ${CMAKE_BINARY_DIR}/lib)
-	set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY_RELEASE ${CMAKE_BINARY_DIR}/lib)
+        set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY_DEBUG ${CMAKE_CURRENT_BINARY_DIR}/lib)
+        set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY_RELEASE ${CMAKE_CURRENT_BINARY_DIR}/lib)
 endif(CMAKE_CL_64)
 	
 # Precompiled headers stuff (CMake doesn't have a standard command for enabling precompiled headers,
@@ -96,9 +95,12 @@ endmacro()
 
 # Other CMakeLists are located in project subdirectories 
 
-add_subdirectory("demos/ConsoleDemo")
-add_subdirectory("demos/WTLDemo")
+# Don't build demos
+#add_subdirectory("demos/ConsoleDemo")
+#add_subdirectory("demos/WTLDemo")
 #add_subdirectory("demos/MFCDemo")
+
+set(CRASHRPT_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 
 add_subdirectory("reporting/crashrpt")
 add_subdirectory("reporting/crashsender")
@@ -110,11 +112,11 @@ add_subdirectory("tests")
 
 # Set output directory for LIB files
 if(CMAKE_CL_64)
-	set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY_DEBUG ${CMAKE_BINARY_DIR}/thirdparty/lib/x64)
-	set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY_RELEASE ${CMAKE_BINARY_DIR}/thirdparty/lib/x64)
+        set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY_DEBUG ${CMAKE_CURRENT_BINARY_DIR}/thirdparty/lib/x64)
+        set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY_RELEASE ${CMAKE_CURRENT_BINARY_DIR}/thirdparty/lib/x64)
 else(CMAKE_CL_64)
-	set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY_DEBUG ${CMAKE_BINARY_DIR}/thirdparty/lib)
-	set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY_RELEASE ${CMAKE_BINARY_DIR}/thirdparty/lib)
+        set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY_DEBUG ${CMAKE_CURRENT_BINARY_DIR}/thirdparty/lib)
+        set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY_RELEASE ${CMAKE_CURRENT_BINARY_DIR}/thirdparty/lib)
 endif(CMAKE_CL_64)
 
 add_subdirectory("thirdparty/tinyxml")
